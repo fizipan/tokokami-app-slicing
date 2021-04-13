@@ -1,0 +1,17 @@
+// Import Bootstrap 4 Library
+@import '../vendor/bootstrap/scss/bootstrap.scss';
+
+// Global Styling
+@import 'global';
+@import 'fonts';
+@import 'colors';
+
+// Components
+@import 'components/product';
+
+// Includes
+@import 'includes/navbar';
+@import 'includes/footer';
+
+// Pages
+@import 'pages/home';
