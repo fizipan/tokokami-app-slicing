@@ -5,6 +5,7 @@
     font-size: 28px;
     line-height: 48px;
   }
+
   .hero {
     background-color: #f6f8fd;
     padding-top: 50px;
@@ -88,5 +89,30 @@
 
   .new-products {
     margin-top: 120px;
+  }
+
+  .order-procedure {
+    text-align: center;
+    margin-top: 120px;
+
+    .card-order {
+      margin-top: 80px;
+
+      img {
+        max-height: 120px;
+      }
+
+      .title-order {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 33px;
+      }
+
+      .subtitle-order {
+        font-weight: 300;
+        line-height: 27px;
+      }
+    }
   }
 }
