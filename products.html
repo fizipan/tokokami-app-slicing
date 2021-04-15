@@ -6,9 +6,11 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Cari Kebutuhan Rumah Yang Pas di TokoKami</title>
+    <title>Katalog Barang Kebutuhan Rumah di TokoKami</title>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/vendor/owl-carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/vendor/owl-carousel/css/owl.theme.default.min.css" />
     <link href="style/main.css" rel="stylesheet" />
   </head>
 
@@ -26,15 +28,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Beranda</a>
+              <a class="nav-link" href="index.html">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="products.html">Produk</a>
+              <a class="nav-link active" href="products.html">Produk</a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto d-none d-lg-flex">
             <li class="nav-item">
-              <a class="btn btn-secondary search-link" href="#">
+              <a class="btn btn-secondary search-link" href="search.html">
                 <img src="/images/ic_search.svg" width="23" height="23" alt="" />
               </a>
             </li>
@@ -71,17 +73,54 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="page-content page-search">
-      <!-- Hero -->
-      <section class="hero-search" id="hero-search">
+    <div class="page-content page-products">
+      <!-- Categories -->
+      <section class="categories" id="categories">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-6">
-              <h1>Pencarian Produk</h1>
-              <p class="text-muted">Carilah produk yang kamu inginkan untuk memenuhi kebutuhan dirumah kamu</p>
-              <div class="form-group">
-                <img src="/images/ic_search-form.svg" alt="" />
-                <input type="search" name="search" id="search" placeholder="Cari Kebutuhan Apa Hari Ini ?" class="form-control search-control" />
+          <div class="row">
+            <div class="col-12">
+              <h5>Cari Berdasarkan Kategori</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="owl-carousel owl-theme">
+                <a href="products.html" class="component-category">
+                  <div class="img-wrapper">
+                    <img src="/images/category-1.svg" alt="" />
+                  </div>
+                  <div class="category-name">Pria</div>
+                </a>
+                <a href="products.html" class="component-category">
+                  <div class="img-wrapper">
+                    <img src="/images/category-2.svg" alt="" />
+                  </div>
+                  <div class="category-name">Wanita</div>
+                </a>
+                <a href="products.html" class="component-category">
+                  <div class="img-wrapper">
+                    <img src="/images/category-3.svg" alt="" />
+                  </div>
+                  <div class="category-name">Anak-anak</div>
+                </a>
+                <a href="products.html" class="component-category">
+                  <div class="img-wrapper">
+                    <img src="/images/category-4.svg" alt="" />
+                  </div>
+                  <div class="category-name">Kebersihan</div>
+                </a>
+                <a href="products.html" class="component-category">
+                  <div class="img-wrapper">
+                    <img src="/images/category-5.svg" alt="" />
+                  </div>
+                  <div class="category-name">Kesehatan</div>
+                </a>
+                <a href="products.html" class="component-category">
+                  <div class="img-wrapper">
+                    <img src="/images/category-6.svg" alt="" />
+                  </div>
+                  <div class="category-name">Dapur</div>
+                </a>
               </div>
             </div>
           </div>
@@ -93,10 +132,10 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h5 style="font-weight: 600; font-size: 24px">Sekitar 12+ hasil ditemukan</h5>
+              <h5>Semua Produk</h5>
             </div>
           </div>
-          <div class="row mt-4">
+          <div class="row">
             <div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
               <a href="details.html" class="component-product">
                 <div class="thumbnail-image">
@@ -341,12 +380,14 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
     <script src="/script/navbar-scroll.js"></script>
+    <script src="/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="/script/owl-carousel.js"></script>
   </body>
 </html>

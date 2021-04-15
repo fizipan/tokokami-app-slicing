@@ -8,6 +8,7 @@
 
 // Components
 @import 'components/product';
+@import 'components/category';
 
 // Includes
 @import 'includes/navbar';
@@ -16,3 +17,4 @@
 // Pages
 @import 'pages/home';
 @import 'pages/search';
+@import 'pages/products';
