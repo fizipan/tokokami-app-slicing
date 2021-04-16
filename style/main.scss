@@ -9,12 +9,17 @@
 // Components
 @import 'components/product';
 @import 'components/category';
+@import 'components/breadcrumb';
 
 // Includes
 @import 'includes/navbar';
 @import 'includes/footer';
 
+// Transitions
+@import 'transistions/slide-fade';
+
 // Pages
 @import 'pages/home';
 @import 'pages/search';
 @import 'pages/products';
+@import 'pages/detail';
