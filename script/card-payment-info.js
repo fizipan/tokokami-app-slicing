@@ -1,9 +1,9 @@
 $(window).scroll(function () {
   let wscroll = $(this).scrollTop();
-  const sectionProduct = $('#new-products');
+  const sectionProductSave = $('#cart-save');
   const cardInfo = $('.payment-info');
 
-  if (wscroll > sectionProduct.offset().top - 400) {
+  if (wscroll > sectionProductSave.offset().top) {
     cardInfo.addClass('toggled');
   } else {
     cardInfo.removeClass('toggled');
