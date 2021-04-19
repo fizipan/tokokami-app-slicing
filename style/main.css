@@ -11688,4 +11688,63 @@ footer ul li a {
   font-weight: 300;
   font-size: 14px;
 }
+
+.page-profile {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-profile .heading-profile {
+  text-align: center;
+}
+
+.page-profile .heading-profile .profile-thumb {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.page-profile .heading-profile .profile-thumb .profile-img {
+  width: 100%;
+  height: 100%;
+}
+
+.page-profile .heading-profile .profile-thumb .edit-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1a2854;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.page-profile .heading-profile h5 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.page-profile .form-profile {
+  margin-top: 20px;
+}
 /*# sourceMappingURL=main.css.map */
