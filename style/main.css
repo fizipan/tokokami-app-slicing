@@ -11647,4 +11647,45 @@ footer ul li a {
 .page-cart .cart-save {
   margin-top: 40px;
 }
+
+.page-payment {
+  padding-top: 20px;
+}
+
+.page-payment h2 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+@media (max-width: 991.98px) {
+  .page-payment .card-payment {
+    margin-bottom: 20px;
+  }
+}
+
+.page-payment .card-payment .owner {
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.page-payment .card-payment .number {
+  font-weight: 500;
+}
+
+.page-payment .shipping-detail .customer-name {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.page-payment .shipping-detail .phone-number {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-top: 3px;
+}
+
+.page-payment .shipping-detail .address {
+  font-weight: 300;
+  font-size: 14px;
+}
 /*# sourceMappingURL=main.css.map */
