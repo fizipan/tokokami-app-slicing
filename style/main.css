@@ -11173,6 +11173,150 @@ body {
   background-color: #fc5e84;
 }
 
+.card-orders {
+  margin-bottom: 40px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border: none;
+}
+
+.card-orders .card-body {
+  padding: 0;
+}
+
+.card-orders .card-body .title-transaction {
+  font-size: 14px;
+  color: #787878;
+}
+
+.card-orders .card-body .subtitle-transaction {
+  font-weight: 500;
+  color: #000000;
+}
+
+.card-orders .card-body .price-transaction {
+  font-weight: bold;
+  color: #fa591d;
+}
+
+.card-orders .card-body .see-detail-transactions {
+  color: #131921;
+}
+
+.card-orders .card-body .transaction-date {
+  padding: 0.8rem 1.2rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.card-orders .card-body .transaction-date .date-text {
+  font-size: 14px;
+  color: #a9a9a9;
+  margin: 0;
+}
+
+.card-orders .card-body .transaction-details::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #d3d3d3;
+  left: 32%;
+  width: 1px;
+  height: 45px;
+}
+
+@media (max-width: 991.98px) {
+  .card-orders .card-body .transaction-details::before {
+    display: none;
+  }
+}
+
+.card-orders .card-body .transaction-details {
+  position: relative;
+  padding: 0.8rem 1.2rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.card-orders .card-body .transaction-details::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #d3d3d3;
+  right: 35%;
+  top: 12px;
+  width: 1px;
+  height: 45px;
+}
+
+@media (max-width: 991.98px) {
+  .card-orders .card-body .transaction-details::after {
+    display: none;
+  }
+}
+
+.card-orders .card-body .transaction-product::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #d3d3d3;
+  left: 49%;
+  width: 1px;
+  height: 70px;
+}
+
+@media (max-width: 991.98px) {
+  .card-orders .card-body .transaction-product::before {
+    display: none;
+  }
+}
+
+.card-orders .card-body .transaction-product {
+  position: relative;
+  padding: 0.8rem 1.2rem;
+}
+
+.card-orders .card-body .transaction-product img {
+  border-radius: 8px;
+}
+
+.card-orders .card-body .transaction-product .product-name {
+  font-weight: 500;
+  color: #0c0d36;
+}
+
+.card-orders .card-body .transaction-product .product-count {
+  font-weight: normal;
+  font-size: 12px;
+  color: #979797;
+}
+
+.modal-detail {
+  font-size: 14px;
+}
+
+.modal-detail h5 {
+  font-size: 16px;
+}
+
+.modal-detail .section-modal {
+  margin-bottom: 10px;
+}
+
+.modal-detail .section-modal .title-text {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.modal-detail .section-modal .subtitle-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-detail .section-modal .subtitle-text .price {
+  color: #ff5722;
+}
+
 .navbar-shop {
   padding-top: 20px;
   font-weight: 500;
@@ -11832,5 +11976,51 @@ footer ul li a {
 
 .page-auth .form-auth .form-content .form-input .btn-info:hover {
   background-color: #0d142c;
+}
+
+.page-orders {
+  padding-top: 20px;
+}
+
+.page-orders .order-list h2 {
+  font-size: 24px;
+}
+
+.page-orders .order-list p {
+  font-size: 16px;
+}
+
+.page-orders .order-list .form-group {
+  position: relative;
+}
+
+.page-orders .order-list .form-group label {
+  position: absolute;
+  color: #a7a7a7;
+  margin: 0;
+  top: 7px;
+  left: 15px;
+}
+
+.page-orders .order-list .form-group .form-control {
+  padding-left: 150px;
+}
+
+.page-orders .order-list .nav {
+  overflow-x: auto;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.page-orders .order-list .nav.nav-pills .nav-item .nav-link {
+  color: #888888;
+  background: none;
+  word-wrap: normal;
+}
+
+.page-orders .order-list .nav.nav-pills .nav-item .nav-link.active {
+  border-radius: 0;
+  color: black;
+  border-bottom: 2px solid black;
 }
 /*# sourceMappingURL=main.css.map */

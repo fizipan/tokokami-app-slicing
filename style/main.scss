@@ -11,6 +11,8 @@
 @import 'components/category';
 @import 'components/breadcrumb';
 @import 'components/card-list';
+@import 'components/card-order';
+@import 'components/modal-detail';
 
 // Includes
 @import 'includes/navbar';
@@ -28,3 +30,4 @@
 @import 'pages/payment';
 @import 'pages/profile';
 @import 'pages/auth';
+@import 'pages/order-list';
